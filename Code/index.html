@@ -1,0 +1,77 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutureChat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="search-box">
+        <input type="text" placeholder="Search conversations..." />
+      </div>
+
+      <ul class="conversation-list">
+        <li class="conversation active">
+          <div class="conversation-name">Sarah Johnson</div>
+          <div class="conversation-preview">Hey! How are you doing?</div>
+          <span class="message-time">2m ago</span>
+        </li>
+        <li class="conversation">
+          <div class="conversation-name">Mike Chen</div>
+          <div class="conversation-preview">Let’s catch up later!</div>
+          <span class="message-time">1h ago</span>
+        </li>
+        <li class="conversation">
+          <div class="conversation-name">Emma Davis</div>
+          <div class="conversation-preview">Thanks for your help 🙏</div>
+          <span class="message-time">3h ago</span>
+        </li>
+        <li class="conversation">
+          <div class="conversation-name">Alex Rivera</div>
+          <div class="conversation-preview">See you tomorrow!</div>
+          <span class="message-time">1d ago</span>
+        </li>
+        <li class="conversation">
+          <div class="conversation-name">Lisa Park</div>
+          <div class="conversation-preview">That sounds great!</div>
+          <span class="message-time">2d ago</span>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- Chat Window -->
+    <main class="chat-window">
+      <header class="chat-header">
+        <h2>Sarah Johnson</h2>
+        <span class="status">Online</span>
+      </header>
+
+      <section class="chat-messages">
+        <div class="message received">
+          <p>Hey! How are you doing?</p>
+          <span class="time">10:30 AM</span>
+        </div>
+        <div class="message sent">
+          <p>That’s wonderful to hear! Do you want to grab coffee later?</p>
+          <span class="time">10:32 AM</span>
+        </div>
+        <div class="message received">
+          <p>How about 3 PM at the usual spot?</p>
+          <span class="time">10:34 AM</span>
+        </div>
+      </section>
+
+      <footer class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type a message..." />
+        <button id="sendBtn">➤</button>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>￼Enter
